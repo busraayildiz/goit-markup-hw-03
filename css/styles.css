@@ -4,6 +4,30 @@ body {
     background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    list-style-type: none;
+}
+
+img {
+    display: block;
+    margin: 0;
+}
+
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+
 .logo {
     font-style: normal;
     font-family: "Raleway", sans-serif;
@@ -14,6 +38,7 @@ body {
     letter-spacing: 0.03em;
     text-decoration: none;
     color: #4d5ae5;
+    margin-right: 76px;
 }
 
 .spa {
