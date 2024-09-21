@@ -206,6 +206,10 @@ h3 {
     padding: 120px 0;
 }
 
+.main-item {
+    width: calc((100% - 72px) / 4)
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -323,7 +327,7 @@ h3 {
 }
 
 .section4-list {
-    width: calc((100% - 72px) / 3);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 
 .main-content-section4 h3,
